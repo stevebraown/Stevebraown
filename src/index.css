@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 4 7 20;
+  --color-surface: 9 13 28;
+  --color-surface-2: 12 17 36;
+  --color-text: 229 233 255;
+  --color-muted: 149 160 190;
+  --color-primary: 255 107 53;
+  --color-primary-2: 255 140 66;
+  --color-border: 36 48 74;
+  --color-glass: 16 23 42;
+}
+
+[data-theme="light"] {
+  --color-bg: 245 247 255;
+  --color-surface: 236 240 255;
+  --color-surface-2: 226 232 252;
+  --color-text: 16 23 42;
+  --color-muted: 74 84 110;
+  --color-primary: 230 96 46;
+  --color-primary-2: 255 140 66;
+  --color-border: 190 200 226;
+  --color-glass: 228 234 255;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-text font-body antialiased;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+
+  ::selection {
+    background: rgb(var(--color-primary) / 0.25);
+    color: rgb(var(--color-text));
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-primary));
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-surface/80 border border-border/60 backdrop-blur-lg;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .gradient-divider {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgb(var(--color-primary) / 0.5),
+      transparent
+    );
+  }
+}
