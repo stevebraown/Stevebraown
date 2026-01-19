@@ -39,6 +39,7 @@ const App = () => (
         techStack={project.techStack.slice(0, 4)}
         ctaLabel={project.links[0]?.label ?? "View project"}
         ctaLink={project.links[0]?.href ?? "#projects"}
+        metrics={project.featuredMetrics}
         layout={index % 2 === 0 ? "left" : "right"}
         accentClassName={project.accent}
       />

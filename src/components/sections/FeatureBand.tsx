@@ -1,3 +1,4 @@
+import type { Stat } from "../../types/portfolio";
 import { Button } from "../ui/Button";
 import { MotionReveal } from "../ui/MotionReveal";
 import { Badge } from "../ui/Badge";
@@ -12,6 +13,7 @@ export type FeatureBandProps = {
   ctaLink: string;
   layout?: "left" | "right";
   accentClassName?: string;
+  metrics?: Stat[];
 };
 
 export const FeatureBand = ({
@@ -22,7 +24,8 @@ export const FeatureBand = ({
   ctaLabel,
   ctaLink,
   layout = "left",
-  accentClassName
+  accentClassName,
+  metrics = []
 }: FeatureBandProps) => (
   <section className="section-padding">
     <div
@@ -72,20 +75,19 @@ export const FeatureBand = ({
             <div className="h-2 w-2/3 rounded-full bg-primary/30" />
             <div className="h-2 w-1/2 rounded-full bg-primary/20" />
           </div>
-          <div className="mt-10 grid grid-cols-3 gap-3 text-xs text-muted">
-            <div className="rounded-2xl border border-border/60 bg-surface-2/70 p-3">
-              <p className="text-primary">20-30%</p>
-              <p>Issue reduction</p>
+          {metrics.length > 0 && (
+            <div className="mt-10 grid grid-cols-3 gap-3 text-xs text-muted">
+              {metrics.map((metric) => (
+                <div
+                  key={metric.label}
+                  className="rounded-2xl border border-border/60 bg-surface-2/70 p-3"
+                >
+                  <p className="text-primary">{metric.value}</p>
+                  <p>{metric.label}</p>
+                </div>
+              ))}
             </div>
-            <div className="rounded-2xl border border-border/60 bg-surface-2/70 p-3">
-              <p className="text-primary">2</p>
-              <p>Payment paths</p>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-surface-2/70 p-3">
-              <p className="text-primary">Dozens</p>
-              <p>Concurrent users</p>
-            </div>
-          </div>
+          )}
         </div>
       </MotionReveal>
     </div>

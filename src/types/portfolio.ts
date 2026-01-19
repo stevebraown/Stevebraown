@@ -20,6 +20,7 @@ export type Project = {
   links: ProjectLink[];
   highlight: boolean;
   accent: string;
+  featuredMetrics?: Stat[];
   caseStudy?: ProjectCaseStudy;
 };
 

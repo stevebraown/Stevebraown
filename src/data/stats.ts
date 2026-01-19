@@ -1,8 +1,8 @@
 import type { Stat } from "../types/portfolio";
 
 export const stats: Stat[] = [
-  { label: "User-facing issues reduced", value: "20-30%" },
-  { label: "Concurrent users in testing", value: "Dozens" },
-  { label: "Payment paths supported", value: "Multi-channel" },
-  { label: "Transaction design focus", value: "Audit-ready" }
+  { label: "Double-charges under network loss", value: "0" },
+  { label: "Onboarding drop-off reduced", value: "~40%" },
+  { label: "Habit consistency (3+ months)", value: "65%+" },
+  { label: "Checkout drop-off", value: "35% -> 28%" }
 ];

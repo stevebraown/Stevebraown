@@ -2,7 +2,9 @@
   "name": "stevebraown-portfolio",
   "private": true,
   "version": "0.1.0",
+  "description": "Futuristic, Darktrace-inspired portfolio for Steve Braown built with React, TypeScript, Tailwind CSS, and Framer Motion.",
   "type": "module",
+  "homepage": "https://stevebraown.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
