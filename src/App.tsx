@@ -12,45 +12,58 @@ import { projects } from "./data/projects";
 import { sectionNav } from "./data/sections";
 import { skillGroups } from "./data/skills";
 import { stats } from "./data/stats";
+import { useLanguage } from "./i18n/LanguageProvider";
 
-const featuredProjects = projects.filter((project) => project.highlight);
+const App = () => {
+  const { translateProject, t } = useLanguage();
 
-const App = () => (
-  <MainLayout>
-    <HeroSection sections={sectionNav} />
-    <StatsStrip stats={stats} />
+  const localizedProjects = projects.map(translateProject);
+  const featuredProjects = localizedProjects.filter((project) => project.highlight);
+  const localizedSections = [
+    { id: "top", label: t("nav.home") },
+    ...sectionNav.map((item) => ({
+      ...item,
+      label: t(`nav.${item.id}`, item.label)
+    }))
+  ];
 
-    <section className="section-padding">
-      <div className="mx-auto max-w-screen-xl space-y-10 px-6">
-        <SectionHeading
-          eyebrow="Featured work"
-          title="Anchor projects with systems-grade depth"
-          description="Focused on reliability, clear state models, and designs that stay understandable as systems grow."
+  return (
+    <MainLayout>
+      <HeroSection sections={localizedSections} />
+      <StatsStrip stats={stats} />
+
+      <section className="section-padding">
+        <div className="mx-auto max-w-screen-xl space-y-10 px-6">
+          <SectionHeading
+            eyebrow={t("featured.eyebrow")}
+            title={t("featured.title")}
+            description={t("featured.description")}
+          />
+        </div>
+      </section>
+
+      {featuredProjects.map((project, index) => (
+        <FeatureBand
+          key={project.id}
+          eyebrow={t("featured.eyebrow")}
+          title={project.title}
+          description={project.description}
+          techStack={project.techStack.slice(0, 4)}
+          ctaLabel={project.links[0]?.label ?? t("buttons.viewWork")}
+          ctaLink={project.links[0]?.href ?? "#projects"}
+          metrics={project.featuredMetrics}
+          layout={index % 2 === 0 ? "left" : "right"}
+          accentClassName={project.accent}
         />
-      </div>
-    </section>
+      ))}
 
-    {featuredProjects.map((project, index) => (
-      <FeatureBand
-        key={project.id}
-        eyebrow="Featured project"
-        title={project.title}
-        description={project.description}
-        techStack={project.techStack.slice(0, 4)}
-        ctaLabel={project.links[0]?.label ?? "View project"}
-        ctaLink={project.links[0]?.href ?? "#projects"}
-        metrics={project.featuredMetrics}
-        layout={index % 2 === 0 ? "left" : "right"}
-        accentClassName={project.accent}
-      />
-    ))}
-
-    <ProjectsSection projects={projects} />
-    <SkillsSection groups={skillGroups} />
-    <ExperienceSection />
-    <AboutSection />
-    <ContactSection />
-  </MainLayout>
-);
+      <ProjectsSection projects={localizedProjects} />
+      <SkillsSection groups={skillGroups} />
+      <ExperienceSection />
+      <AboutSection />
+      <ContactSection />
+    </MainLayout>
+  );
+};
 
 export default App;

@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "title": "Steve Braown | Ingénieur produit full-stack orienté systèmes",
+    "description": "Portfolio de Steve Braown, ingénieur produit full-stack orienté fiabilité, paiements et logiciels proches de l'infrastructure."
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Travaux",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "viewWork": "Voir les projets",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "sendMessage": "Envoyer"
+  },
+  "hero": {
+    "eyebrow": "Ingénieur produit full-stack",
+    "name": "Steve Braown",
+    "title": "Ingénieur produit full-stack, orienté systèmes, spécialisé dans les plateformes web modernes, les paiements et les logiciels proches de l'infrastructure.",
+    "body": "J'interviens sur le frontend, le backend et la plateforme, avec un accent croissant sur Rust pour les systèmes critiques en performance et en correction. Je veux des logiciels qui tiennent la charge, évoluent proprement et restent compréhensibles longtemps après leur mise en production.",
+    "navTitle": "Explorer le portfolio",
+    "navCopy": "Accédez rapidement aux sections clés."
+  },
+  "featured": {
+    "eyebrow": "Projets phares",
+    "title": "Projets ancrés avec une profondeur système",
+    "description": "Fiabilité, modèles d'état clairs et design compréhensible à l'échelle."
+  },
+  "projectsSection": {
+    "eyebrow": "Travaux sélectionnés",
+    "title": "Projets guidés par les contraintes, la reprise et l'intention",
+    "description": "Chaque projet met en avant la fiabilité, les choix de trade-off et des interfaces qui rendent les systèmes complexes lisibles."
+  },
+  "skillsSection": {
+    "eyebrow": "Compétences",
+    "title": "Compétences pour la fiabilité et la pérennité",
+    "description": "Clarté système, livraison produit et décisions plateformes durables."
+  },
+  "experienceSection": {
+    "eyebrow": "Expérience",
+    "title": "Prise en main produit et plateforme",
+    "description": "Livraison en mode STAR avec résultats mesurables sur services, interfaces et opérations.",
+    "earlierTitle": "Travaux antérieurs",
+    "earlierBody": "Support IT et missions freelance qui ont forgé une approche orientée reprise, un calme en incident et de l'empathie pour les utilisateurs quand les systèmes tombent."
+  },
+  "aboutSection": {
+    "eyebrow": "À propos",
+    "title": "Ingénierie produit orientée systèmes, faite pour durer",
+    "description": "Je construis des logiciels fiables en conditions réelles, avec des modèles d'état clairs et des interfaces qui rendent les systèmes compréhensibles.",
+    "principlesTitle": "Principes de conception",
+    "paragraphs": [
+      "Je suis un ingénieur produit full-stack orienté systèmes, focalisé sur des logiciels fiables et scalables pour des usages réels.",
+      "J'interviens du frontend à la plateforme, avec un intérêt croissant pour Rust sur les systèmes critiques en performance et en correction.",
+      "Je privilégie des logiciels qui tiennent la charge, évoluent proprement et restent lisibles dans le temps.",
+      "Derniers travaux : paiements, coordination de plateforme et outils opérationnels où la gestion des pannes et la traçabilité sont clés."
+    ],
+    "principles": [
+      "Rendre l'état du système explicite pour rendre visibles et récupérables les pannes.",
+      "Construire des interfaces qui expliquent les décisions, pas seulement les actions.",
+      "Favoriser la clarté et le calme sous charge, même en stress système.",
+      "Choisir des designs qui passent à l'échelle opérationnelle, pas uniquement visuelle."
+    ]
+  },
+  "skills": {
+    "groups": [
+      {
+        "title": "Systèmes + Fiabilité",
+        "items": [
+          "Workflows sensibles aux pannes",
+          "Modélisation d'état et reprise",
+          "Observabilité et triage d'incident",
+          "Profilage de performance",
+          "Données prêtes pour l'audit"
+        ]
+      },
+      {
+        "title": "Ingénierie Produit",
+        "items": [
+          "Architecture d'interface et UX writing",
+          "Design systems à hiérarchie claire",
+          "Livraison cross-layer et ownership",
+          "Workflows accessibles et fluides",
+          "Planification de sorties itératives"
+        ]
+      },
+      {
+        "title": "Plateforme + Services",
+        "items": [
+          "Design et intégration d'API",
+          "Paiements et authentification",
+          "Orchestration événementielle",
+          "Stratégies de cohérence des données",
+          "Traitements asynchrones"
+        ]
+      },
+      {
+        "title": "Rust + Progression systèmes",
+        "items": [
+          "Ownership et borrowing en pratique",
+          "Patterns de concurrence",
+          "Moteurs de stockage et indexation",
+          "API orientées correction",
+          "Benchmark et trade-offs"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "developerVillage": {
+      "company": "Developer Village",
+      "title": "Développeur logiciel",
+      "dates": "Août 2024 – Juil 2025 · Colchester, UK",
+      "bullets": [
+        "Pilotage de fonctionnalités React/Node.js pour PME UK avec livraisons hebdomadaires, cadrées avec les PO.",
+        "Refonte des validations et API REST avec couverture Jest + SuperTest; moins d'escalades support et plus de rollback.",
+        "Intégration paiements, auth et données en staging Docker; cadence Git/Jira/Agile pour aligner les parties prenantes."
+      ]
+    },
+    "uel": {
+      "company": "University of East London",
+      "title": "Ingénieur logiciel",
+      "dates": "2025 · Londres, UK",
+      "bullets": [
+        "Dashboards internes et outils de workflow pour les équipes universitaires; critères de succès définis avec les responsables.",
+        "Auth à rôles, journaux d'audit et APIs REST robustes en Node.js/React; releases couvertes par tests Jest et environnements Docker.",
+        "Rituels Kanban/Jira et revues de PR Git; outils stables en lancement live et moins de transferts opérateur."
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ouvert aux projets orientés fiabilité",
+    "description": "Idéal pour des rôles plateforme, paiements, ou produits proches de l'infrastructure où la clarté système compte.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "placeholder": "Parlez-moi du système que vous construisez...",
+      "cta": "Envoyer",
+      "error": "Merci de renseigner nom, email et un court message.",
+      "sent": "Ouverture de votre client mail — sinon écrivez-moi directement à wizkidadrien@gmail.com."
+    },
+    "sidebar": {
+      "title": "Canaux directs",
+      "description": "Contact direct pour postes, collaborations ou missions ciblées. Réponse sous un jour ouvré.",
+      "availability": "Je recherche des contextes où la réflexion système et la livraison produit se rencontrent."
+    }
+  },
+  "stats": {
+    "items": [
+      { "value": "0", "label": "Double-débits en perte réseau" },
+      { "value": "~40%", "label": "Baisse du churn d'onboarding" },
+      { "value": "65%+", "label": "Habitudes tenues (3+ mois)" },
+      { "value": "35% -> 28%", "label": "Abandon panier" }
+    ]
+  },
+  "projects": {
+    "khokha-pay": {
+      "shortTagline": "Paiements utilitaires résilients avec reprise traçable sur réseau instable.",
+      "description": "Système de paiement utilitaire correct même en réseau intermittent, avec chaque transaction auditée et récupérable sans intervention manuelle.",
+      "role": "Produit + ingénierie système",
+      "bullets": [
+        "États de transaction explicites et APIs idempotentes pour éviter pannes silencieuses et doubles débits en perte réseau.",
+        "Parcours assisté agent et direct avec passages tracés; le parcours agent réduit l'onboarding d'environ 30%.",
+        "Tests de connectivité partielle et de concurrence avec Jest + SuperTest; reprise automatisée en moins de 10s via services Docker."
+      ],
+      "featuredMetrics": [
+        { "value": "0", "label": "Double-débits en test réseau" },
+        { "value": "<10s", "label": "Reprise auto par transaction" },
+        { "value": "~30%", "label": "Friction d'onboarding en moins" }
+      ],
+      "caseStudy": {
+        "problem": "Les paiements de services publics subissent des coupures réseau, entraînant doubles débits, pannes silencieuses et perte de confiance.",
+        "approach": "Architecture transactionnelle avec états explicites, endpoints idempotents, parcours agent/direct, retries automatisés et piste d'audit via services Rust et APIs TypeScript.",
+        "outcomes": [
+          "Zéro double-débit observé en simulation de perte réseau; pannes visibles via la machine d'état.",
+          "Reprise auto en moins de 10s avec historique traçable.",
+          "Parcours agent et direct pris en charge; le parcours assisté réduit l'onboarding d'environ 30%."
+        ]
+      }
+    },
+    "campus-connect": {
+      "shortTagline": "Coordination campus avec rôles, onboarding prévisible et messagerie temps réel.",
+      "description": "Plateforme de coordination géolocalisée avec workflows à rôles pour un onboarding rapide, sûr et fluide, sans saturer les services cœur.",
+      "role": "Ingénierie plateforme full-stack",
+      "bullets": [
+        "Workflows à rôles et paliers de profil; baisse de l'abandon d'onboarding d'environ 40%.",
+        "Messagerie temps réel Firebase séparée des services Node.js; dizaines de chats concurrents sous 500 ms de latence.",
+        "Tests d'usage et releases Agile/Git hebdomadaires; plus de 65% des actifs reviennent chaque semaine sur 3+ mois."
+      ],
+      "featuredMetrics": [
+        { "value": "~40%", "label": "Baisse abandon onboarding" },
+        { "value": "65%+", "label": "Utilisateurs hebdo récurrents" },
+        { "value": "<500ms", "label": "Latence messagerie" }
+      ],
+      "caseStudy": {
+        "problem": "Outils campus avec friction d'onboarding et peu de sécurité par rôle, générant abandon et spam.",
+        "approach": "Workflows à rôles, paliers de profil, messagerie temps réel séparée des services cœur et onboarding guidé.",
+        "outcomes": [
+          "Abandon d'onboarding réduit d'environ 40%.",
+          "Messagerie temps réel pour des dizaines d'utilisateurs avec <500 ms de latence.",
+          "65%+ d'actifs reviennent chaque semaine sur 3+ mois, zéro incident de confidentialité."
+        ]
+      }
+    },
+    "rust-kv": {
+      "shortTagline": "KV store Rust pour explorer stockage, indexation et durabilité.",
+      "description": "Base clé-valeur persistante en Rust pour étudier ownership, layout de stockage et goulots de performance dans un système maîtrisé.",
+      "role": "Ingénierie systèmes (Rust)",
+      "bullets": [
+        "Stockage log-structuré, indexation et requêtes avec sécurité assurée par l'ownership; aucun bloc unsafe dans les chemins cœur.",
+        "Benchmarks vs implémentation naïve et correction des hotspots I/O, pour des requêtes de plage 1,5x plus rapides.",
+        "Notes de conception sur durabilité, concurrence et compactage, guidant WAL et gestion de segments."
+      ],
+      "featuredMetrics": [
+        { "value": "1.5x", "label": "Requêtes de plage plus rapides" },
+        { "value": "0", "label": "Blocs unsafe dans le cœur" },
+        { "value": "3", "label": "Goulots identifiés et corrigés" }
+      ],
+      "caseStudy": {
+        "problem": "Comprendre un moteur de stockage impose de le construire pour voir les trade-offs de durabilité et performance.",
+        "approach": "Base clé-valeur persistante avec stockage log-structuré, indexation et modules clairs, sécurisés par l'ownership Rust.",
+        "outcomes": [
+          "Indexation fonctionnelle avec APIs type-safe et zéro unsafe dans les chemins cœur.",
+          "Requêtes de plage 1,5x plus rapides après profilage et suppression des hotspots I/O.",
+          "Trois goulots documentés et feuille de route (compactage, WAL)."
+        ]
+      }
+    },
+    "sentinel-pulse": {
+      "shortTagline": "Télémetrie et alerting qui réduisent le bruit et guident le triage.",
+      "description": "Cockpit de monitoring qui priorise les incidents, oriente les opérateurs et clarifie les prochaines actions sous pression.",
+      "role": "Ingénierie produit",
+      "bullets": [
+        "Corrélation d'alertes en incidents uniques; fatigue d'alerte réduite d'environ 35% et signaux prioritaires mis en avant.",
+        "Dashboards orientés opérateur (ce qui casse, qui est affecté, prochaine action) avec mises à jour WebSockets.",
+        "Simulations sous pression avec les équipes ops; identification d'incident améliorée d'environ 40% (moins d'une minute)."
+      ],
+      "caseStudy": {
+        "problem": "Trop d'alertes noient les équipes, rendant difficile l'identification des pannes et des actions.",
+        "approach": "Moteur de priorisation qui corrèle les alertes, dashboards alignés aux modèles mentaux opérateur, composants réutilisables mis à jour via WebSockets.",
+        "outcomes": [
+          "Fatigue d'alerte réduite d'environ 35%; incidents prioritaires regroupés.",
+          "Identification en moins d'une minute, amélioration d'environ 40%.",
+          "Composants dashboard réutilisés dans 3+ outils internes, divisant par deux le code dupliqué."
+        ]
+      }
+    },
+    "the-box": {
+      "shortTagline": "Workflows documentaires auditables avec sécurité utilisable.",
+      "description": "Espace documentaire sécurisé, permissions claires, intégrité vérifiée et approvals guidées sans bloquer les non-tech.",
+      "role": "Ingénierie full-stack",
+      "bullets": [
+        "RBAC granulaire avec limites visibles et journaux d'audit; zéro incident d'accès.",
+        "Validation d'upload et contrôles d'intégrité; chaque version garde ses métadonnées pour la conformité.",
+        "Workflows d'approbation avec états 'en attente'; décisions 50% plus rapides."
+      ],
+      "caseStudy": {
+        "problem": "Besoin de workflows documentaires sécurisés et auditables sans sacrifier l'ergonomie.",
+        "approach": "Accès par rôles, validation d'intégrité et approvals versionnées avec Next.js, PostgreSQL et APIs REST authentifiées.",
+        "outcomes": [
+          "Piste d'audit fiable, zéro violation d'intégrité.",
+          "Revues documentaires ~50% plus rapides grâce aux étapes claires.",
+          "Onboarding <10 minutes; conformité à 95%+ prête audit."
+        ]
+      }
+    },
+    "staterail": {
+      "shortTagline": "Orchestration de workflow à transitions d'état prévisibles.",
+      "description": "Console d'orchestration où les transitions d'état sont explicites, observables et déboguables sans fouiller les logs.",
+      "role": "Ingénierie produit",
+      "bullets": [
+        "Builder visuel de machine d'états avec règles if-then; échecs de workflow -25% grâce à la capture précoce des cas limites.",
+        "Flux d'événements vers un dashboard temps réel; jobs bloqués diagnostiqués en moins de 2 minutes au lieu de 20+.",
+        "APIs GraphQL en self-service pour les analytics, moins de dépendance aux devs pour incidents et perfs."
+      ],
+      "caseStudy": {
+        "problem": "Pipelines bloqués avec état opaque et peu de visibilité, obligeant à fouiller les logs.",
+        "approach": "Console d'orchestration avec états explicites, analytics événementielles et APIs GraphQL testées sur concurrence et retries.",
+        "outcomes": [
+          "Échecs de workflow réduits d'environ 25%.",
+          "Diagnostics des jobs bloqués en <2 minutes au lieu de 20+.",
+          "Ops/analytics en self-service via GraphQL, sans runbooks pour les cas courants."
+        ]
+      }
+    },
+    "atlas-commerce": {
+      "shortTagline": "Boutique prête aux paiements avec checkout résilient.",
+      "description": "Refonte du checkout pour réduire l'abandon, accélérer le merchandising et renforcer les Core Web Vitals.",
+      "role": "Ingénierie frontend",
+      "bullets": [
+        "États de checkout alignés aux modèles mentaux et validations précoces; abandon de 35% à 28% (~18% de mieux).",
+        "Blocs de merchandising modulaires et A/B; mises à jour en moins de 5 minutes sans redeploy.",
+        "Optimisation perfs (code splitting, assets compressés, ISR); LCP 3.2s -> 1.8s, CLS +60%."
+      ],
+      "caseStudy": {
+        "problem": "Abandon checkout élevé (35%), merchandising lent (2+ heures) et Core Web Vitals faibles pour le SEO.",
+        "approach": "Recartographie des états de checkout, merchandising modulable avec A/B, Stripe avec validation claire, optimisation perfs via code splitting et ISR.",
+        "outcomes": [
+          "Abandon ramené à 28% (~18% d'amélioration), +45k$/an estimés.",
+          "Mises à jour merchandising <5 minutes, campagnes hebdo au lieu de trimestrielles.",
+          "Core Web Vitals améliorés (LCP 3.2s -> 1.8s, CLS +60%, FID <50ms); récurrence client +12% et trafic organique +8%."
+        ]
+      }
+    },
+    "nova-base": {
+      "shortTagline": "Base de connaissances avec recherche sémantique et contenus versionnés.",
+      "description": "Base de connaissances en recherche sémantique, UX de lecture claire et workflows versionnés pour garder les réponses trouvables et auditables.",
+      "role": "Ingénierie full-stack",
+      "bullets": [
+        "Recherche sémantique par embeddings; succès des requêtes de ~35% à ~85% au premier essai.",
+        "Layouts de lecture + SSR rapide; temps de réponse moyen <200 ms pour 100k+ articles.",
+        "Contenus versionnés avec approbations et audit, réduisant les tickets FAQ d'environ 40%."
+      ],
+      "caseStudy": {
+        "problem": "La recherche par mots-clés échouait souvent et aucune version n'était suivie pour la conformité.",
+        "approach": "Recherche sémantique, layouts de lecture et publication versionnée avec Next.js et Supabase.",
+        "outcomes": [
+          "Succès de recherche de ~35% à ~85% au premier essai.",
+          "Réponses moyennes <200 ms sur 100k+ articles.",
+          "Tickets FAQ en baisse d'environ 40% grâce aux contenus versionnés."
+        ]
+      }
+    },
+    "track-it": {
+      "shortTagline": "Suivi d'habitudes PWA, offline-first et stockage local uniquement.",
+      "description": "PWA offline-first qui garde les données locales, supporte les cadences custom et s'installe pour soutenir la régularité.",
+      "role": "Ingénierie frontend",
+      "bullets": [
+        "Cadences, séries et stats personnalisées; plus de 65% des utilisateurs tiennent leurs habitudes sur 3+ mois.",
+        "Flows PWA offline avec prompts d'installation et export/import; 400+ installations.",
+        "Reflexions et mode sombre conduisent à ~70% d'engagement récurrent."
+      ],
+      "caseStudy": {
+        "problem": "La plupart des trackers exigent un compte ou la synchro cloud, rendant l'usage plus lent et fragile.",
+        "approach": "PWA côté client, offline, stockage local et surfaces de progression claires.",
+        "outcomes": [
+          "Plus de 65% de constance sur 3+ mois grâce au suivi local.",
+          "400+ installations grâce au mode offline et sans compte.",
+          "Environ 70% d'engagement récurrent avec réflexions, mode sombre et export/import."
+        ]
+      }
+    }
+  }
+}
