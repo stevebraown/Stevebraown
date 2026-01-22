@@ -2,23 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://stevebraown.vercel.app/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#work</loc>
+    <loc>https://stevebraown.vercel.app/projects</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#capabilities</loc>
+    <loc>https://stevebraown.vercel.app/projects/khokhapay-payments-platform</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#experience</loc>
+    <loc>https://stevebraown.vercel.app/projects/campus-connect-student-platform</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#about</loc>
+    <loc>https://stevebraown.vercel.app/projects/rust-key-value-database</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#notes</loc>
+    <loc>https://stevebraown.vercel.app/projects/sentinel-pulse-ops-telemetry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://stevebraown.vercel.app/#contact</loc>
+    <loc>https://stevebraown.vercel.app/projects/the-box-audit-workflows</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/projects/staterail-workflow-orchestration</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/projects/atlas-commerce-checkout</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/projects/nova-base-knowledge-base</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/projects/track-it-offline-habit-tracker</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://stevebraown.vercel.app/experience</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

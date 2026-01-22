@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Project } from "../../types/portfolio";
 import { Badge } from "./Badge";
 import { MotionReveal } from "./MotionReveal";
@@ -32,6 +33,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
       ))}
     </div>
     <div className="mt-auto flex flex-wrap gap-3 text-sm font-semibold text-primary">
+      {project.slug ? (
+        <Link
+          to={`/projects/${project.slug}`}
+          className="transition hover:text-primary-2"
+        >
+          Read case study
+        </Link>
+      ) : null}
       {project.links.map((link) => (
         <a
           key={link.label}
