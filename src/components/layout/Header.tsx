@@ -8,7 +8,7 @@ export const Header = () => {
   const { t } = useLanguage();
 
   const navItems = [
-    { id: "top", label: t("nav.home") },
+    { id: "home", label: t("nav.home", "Home") },
     ...sectionNav.map((item) => ({
       ...item,
       label: t(`nav.${item.id}`, item.label)
@@ -19,10 +19,10 @@ export const Header = () => {
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-border/40 bg-bg/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between px-6 py-4">
         <a
-          href="#top"
+          href="#home"
           className="font-display text-lg font-semibold tracking-wide"
         >
-          {t("hero.name", "Steve Braown")}
+          Steve Braown
         </a>
         <nav className="hidden items-center gap-6 text-sm font-medium text-muted md:flex">
           {navItems.map((item) => (
@@ -52,7 +52,7 @@ export const Header = () => {
           </div>
           <LanguageToggle />
           <ThemeToggle />
-          <Button as="a" href="#projects" variant="secondary" size="sm">
+          <Button as="a" href="#work" variant="secondary" size="sm">
             {t("buttons.viewWork", "View Work")}
           </Button>
         </div>

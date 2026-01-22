@@ -1,14 +1,20 @@
 {
   "meta": {
     "title": "Steve Braown | Systems-minded full-stack product engineer",
-    "description": "Portfolio of Steve Braown, a systems-minded full-stack product engineer focused on reliability, payments, and infrastructure-adjacent software."
+    "description": "Portfolio of Steve Braown, a UK-based systems-minded full-stack product engineer focused on reliability, payments, platforms, Rust, and infrastructure-adjacent software."
+  },
+  "notesSection": {
+    "eyebrow": "Notes",
+    "title": "Notes and technical articles",
+    "description": "Short write-ups on payments reliability, Rust systems, and platform patterns—coming soon."
   },
   "nav": {
     "home": "Home",
-    "projects": "Work",
-    "skills": "Capabilities",
+    "work": "Work / Projects",
+    "capabilities": "Capabilities",
     "experience": "Experience",
     "about": "About",
+    "notes": "Notes",
     "contact": "Contact"
   },
   "buttons": {
@@ -19,37 +25,37 @@
   },
   "hero": {
     "eyebrow": "Full-stack product engineer",
-    "name": "Steve Braown",
-    "title": "Systems-minded full-stack product engineer focused on modern web platforms, payments, and infrastructure-adjacent software.",
-    "body": "I work across frontend, backend, and platform layers, with a growing emphasis on Rust for performance-critical and correctness-driven systems. I care about software that holds up under load, evolves cleanly, and remains understandable long after it ships.",
+    "name": "Systems-minded full-stack product engineer – Steve Braown",
+    "title": "UK-based full-stack product engineer focused on payments, platforms, Rust, and reliability.",
+    "body": "I design and ship resilient web apps across frontend, backend, and platform layers, using Rust where correctness and performance matter most. I care about software that holds up under load, evolves cleanly, and remains understandable long after it ships.",
     "navTitle": "Explore the portfolio",
     "navCopy": "Jump to key sections and scan what matters most."
   },
   "featured": {
     "eyebrow": "Featured work",
-    "title": "Anchor projects with systems-grade depth",
-    "description": "Focused on reliability, clear state models, and designs that stay understandable as systems grow."
+    "title": "Featured projects across payments, platforms, and reliability",
+    "description": "Systems-minded builds with clear state models, recovery paths, and measurable outcomes."
   },
   "projectsSection": {
     "eyebrow": "Selected work",
-    "title": "Projects shaped by constraints, recovery, and clear intent",
-    "description": "Each project emphasizes reliability, trade-off decisions, and interfaces that make complex systems understandable."
+    "title": "Work shaped by constraints, recovery, and clear intent",
+    "description": "Full-stack projects in payments, platforms, Rust systems, and reliability-focused UX."
   },
   "skillsSection": {
     "eyebrow": "Capabilities",
-    "title": "Capabilities built for reliability and long-term ownership",
-    "description": "Focused on system clarity, product delivery, and durable platform decisions."
+    "title": "Capabilities for reliable full-stack delivery",
+    "description": "Systems thinking, Rust-backed correctness, product UX for complex flows."
   },
   "experienceSection": {
     "eyebrow": "Experience",
     "title": "Ownership across product and platform layers",
-    "description": "STAR-style delivery with measurable outcomes across services, interfaces, and operational workflows.",
+    "description": "Shipping resilient services and interfaces with measurable outcomes.",
     "earlierTitle": "Earlier work",
     "earlierBody": "Background in IT support and freelance troubleshooting, which shaped a recovery-first mindset, calm incident response, and empathy for end users when systems fail."
   },
   "aboutSection": {
     "eyebrow": "About",
-    "title": "Systems-aware product engineering, built to last",
+    "title": "About Steve Braown, systems-minded full-stack engineer",
     "description": "I build software that stays reliable under real-world constraints, with clear state models and interfaces that make complex systems understandable.",
     "principlesTitle": "Design principles",
     "paragraphs": [

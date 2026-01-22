@@ -11,6 +11,7 @@ export type ProjectCaseStudy = {
 
 export type Project = {
   id: string;
+  slug?: string;
   title: string;
   shortTagline: string;
   description: string;

@@ -3,7 +3,8 @@ import type { Project } from "../types/portfolio";
 export const projects: Project[] = [
   {
     id: "khokha-pay",
-    title: "KhokhaPay",
+    slug: "khokhapay-payments-platform",
+    title: "KhokhaPay – resilient utility payments platform",
     shortTagline:
       "Resilient utility payments with auditable recovery on unreliable networks.",
     description:
@@ -46,7 +47,8 @@ export const projects: Project[] = [
   },
   {
     id: "campus-connect",
-    title: "Campus Connect",
+    slug: "campus-connect-student-platform",
+    title: "Campus Connect – location-based student platform",
     shortTagline:
       "Role-aware campus coordination with predictable onboarding and real-time messaging.",
     description:
@@ -87,7 +89,8 @@ export const projects: Project[] = [
   },
   {
     id: "rust-kv",
-    title: "Rust Key-Value Database",
+    slug: "rust-key-value-database",
+    title: "Rust Key-Value Database – storage engine learning project",
     shortTagline:
       "Rust key-value store exploring storage, indexing, and durability trade-offs.",
     description:
@@ -121,7 +124,8 @@ export const projects: Project[] = [
   },
   {
     id: "sentinel-pulse",
-    title: "Sentinel Pulse",
+    slug: "sentinel-pulse-ops-telemetry",
+    title: "Sentinel Pulse – ops telemetry and alerting cockpit",
     shortTagline: "Telemetry and alerting that reduce noise and guide triage.",
     description:
       "Designed a monitoring cockpit that prioritizes incidents, keeps operators oriented, and makes next actions obvious under pressure.",
@@ -149,7 +153,8 @@ export const projects: Project[] = [
   },
   {
     id: "the-box",
-    title: "The Box",
+    slug: "the-box-audit-workflows",
+    title: "The Box – audit-ready document workflow",
     shortTagline:
       "Audit-ready document workflows with usable security for non-technical users.",
     description:
@@ -178,7 +183,8 @@ export const projects: Project[] = [
   },
   {
     id: "staterail",
-    title: "StateRail",
+    slug: "staterail-workflow-orchestration",
+    title: "StateRail – workflow orchestration console",
     shortTagline: "Workflow orchestration with predictable state transitions.",
     description:
       "Built a workflow orchestration console where state transitions are explicit, observable, and debuggable without digging through logs.",
@@ -206,7 +212,8 @@ export const projects: Project[] = [
   },
   {
     id: "atlas-commerce",
-    title: "Atlas Commerce",
+    slug: "atlas-commerce-checkout",
+    title: "Atlas Commerce – reliable checkout experience",
     shortTagline: "Payment-ready storefront with resilient checkout flows.",
     description:
       "Redesigned checkout to cut abandonment, speed merchandising changes, and strengthen Core Web Vitals.",
@@ -234,7 +241,8 @@ export const projects: Project[] = [
   },
   {
     id: "nova-base",
-    title: "NovaBase",
+    slug: "nova-base-knowledge-base",
+    title: "NovaBase – semantic knowledge base",
     shortTagline: "Knowledge base with semantic search and versioned content.",
     description:
       "Built a semantic-search knowledge base with clean reading UX and versioned workflows so answers stay discoverable and auditable.",
@@ -262,7 +270,8 @@ export const projects: Project[] = [
   },
   {
     id: "track-it",
-    title: "Track It",
+    slug: "track-it-offline-habit-tracker",
+    title: "Track It – offline-first habit tracker",
     shortTagline: "Habit tracker PWA with offline-first, local-only storage.",
     description:
       "Shipped an offline-first habit tracker that keeps data local, supports custom cadences, and installs as a PWA to reinforce long-term routines.",

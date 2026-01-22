@@ -61,6 +61,17 @@ export const ExperienceSection = () => {
             {t("experienceSection.earlierTitle")}
           </p>
           <p className="mt-3">{t("experienceSection.earlierBody")}</p>
+        <p className="mt-3">
+          See related case studies in{" "}
+          <a className="text-primary underline-offset-2 hover:underline" href="#work">
+            Work / Projects
+          </a>{" "}
+          or get in touch via{" "}
+          <a className="text-primary underline-offset-2 hover:underline" href="#contact">
+            Contact
+          </a>
+          .
+        </p>
         </MotionReveal>
       </div>
     </section>

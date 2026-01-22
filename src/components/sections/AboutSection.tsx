@@ -20,6 +20,20 @@ export const AboutSection = () => {
                 <p key={paragraph}>{paragraph}</p>
               )
             )}
+            <p>
+              Explore the{" "}
+              <a className="text-primary underline-offset-2 hover:underline" href="#work">
+                work and projects
+              </a>{" "}
+              for payments, platforms, and Rust systems, or see{" "}
+              <a
+                className="text-primary underline-offset-2 hover:underline"
+                href="#experience"
+              >
+                experience highlights
+              </a>{" "}
+              for delivery and ownership examples.
+            </p>
           </MotionReveal>
           <MotionReveal className="space-y-6 rounded-3xl border border-border/60 bg-surface/70 p-6">
             <h3 className="text-lg font-semibold text-text">

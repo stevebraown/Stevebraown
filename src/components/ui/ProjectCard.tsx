@@ -10,7 +10,7 @@ type ProjectCardProps = {
 };
 
 export const ProjectCard = ({ project }: ProjectCardProps) => (
-  <MotionReveal className={cardClassName}>
+  <MotionReveal id={project.slug ?? project.id} className={cardClassName}>
     <div className="space-y-3">
       <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
         {project.role}

@@ -29,7 +29,7 @@ export const HeroSection = ({ sections }: HeroSectionProps) => {
   const linkedin = t<string>("buttons.linkedin");
 
   return (
-    <section id="top" className="relative overflow-hidden section-padding">
+    <section id="home" className="relative overflow-hidden section-padding">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-hero-grid opacity-20" />
         <motion.div
@@ -57,7 +57,7 @@ export const HeroSection = ({ sections }: HeroSectionProps) => {
           </p>
           <p className="text-base text-muted md:text-lg">{heroBody}</p>
           <div className="flex flex-wrap gap-4">
-            <Button as="a" href="#projects">
+            <Button as="a" href="#work">
               {viewWork}
             </Button>
             <Button

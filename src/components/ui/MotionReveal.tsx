@@ -5,10 +5,17 @@ type MotionRevealProps = {
   children: ReactNode;
   delay?: number;
   className?: string;
+  id?: string;
 };
 
-export const MotionReveal = ({ children, delay = 0, className }: MotionRevealProps) => (
+export const MotionReveal = ({
+  children,
+  delay = 0,
+  className,
+  id
+}: MotionRevealProps) => (
   <motion.div
+    id={id}
     className={className}
     initial={{ opacity: 0, y: 24 }}
     whileInView={{ opacity: 1, y: 0 }}

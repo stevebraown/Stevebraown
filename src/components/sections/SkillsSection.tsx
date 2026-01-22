@@ -14,7 +14,7 @@ export const SkillsSection = ({ groups }: SkillsSectionProps) => {
   const { t } = useLanguage();
 
   return (
-    <section id="skills" className="section-padding">
+    <section id="capabilities" className="section-padding">
       <div className="mx-auto max-w-screen-xl space-y-12 px-6">
         <SectionHeading
           eyebrow={t("skillsSection.eyebrow")}

@@ -1,14 +1,20 @@
 {
   "meta": {
     "title": "Steve Braown | Ingénieur produit full-stack orienté systèmes",
-    "description": "Portfolio de Steve Braown, ingénieur produit full-stack orienté fiabilité, paiements et logiciels proches de l'infrastructure."
+    "description": "Portfolio de Steve Braown, ingénieur produit full-stack basé au Royaume-Uni, orienté fiabilité, paiements, plateformes, Rust et logiciels proches de l'infrastructure."
+  },
+  "notesSection": {
+    "eyebrow": "Notes",
+    "title": "Notes et articles techniques",
+    "description": "Courts articles sur la fiabilité des paiements, les systèmes Rust et les patterns plateforme — à venir."
   },
   "nav": {
     "home": "Accueil",
-    "projects": "Travaux",
-    "skills": "Compétences",
+    "work": "Travaux / Projets",
+    "capabilities": "Compétences",
     "experience": "Expérience",
     "about": "À propos",
+    "notes": "Notes",
     "contact": "Contact"
   },
   "buttons": {
@@ -19,31 +25,31 @@
   },
   "hero": {
     "eyebrow": "Ingénieur produit full-stack",
-    "name": "Steve Braown",
-    "title": "Ingénieur produit full-stack, orienté systèmes, spécialisé dans les plateformes web modernes, les paiements et les logiciels proches de l'infrastructure.",
-    "body": "J'interviens sur le frontend, le backend et la plateforme, avec un accent croissant sur Rust pour les systèmes critiques en performance et en correction. Je veux des logiciels qui tiennent la charge, évoluent proprement et restent compréhensibles longtemps après leur mise en production.",
+    "name": "Ingénieur produit full-stack orienté systèmes – Steve Braown",
+    "title": "Ingénieur produit full-stack basé au Royaume-Uni, spécialisé paiements, plateformes, Rust et fiabilité.",
+    "body": "Je conçois et livre des applications web résilientes du frontend à la plateforme, en utilisant Rust quand la correction et la performance sont critiques. Je vise des logiciels qui tiennent la charge, évoluent proprement et restent lisibles dans le temps.",
     "navTitle": "Explorer le portfolio",
     "navCopy": "Accédez rapidement aux sections clés."
   },
   "featured": {
     "eyebrow": "Projets phares",
-    "title": "Projets ancrés avec une profondeur système",
-    "description": "Fiabilité, modèles d'état clairs et design compréhensible à l'échelle."
+    "title": "Projets phares en paiements, plateformes et fiabilité",
+    "description": "Modèles d'état clairs, parcours de reprise et résultats mesurables."
   },
   "projectsSection": {
     "eyebrow": "Travaux sélectionnés",
-    "title": "Projets guidés par les contraintes, la reprise et l'intention",
-    "description": "Chaque projet met en avant la fiabilité, les choix de trade-off et des interfaces qui rendent les systèmes complexes lisibles."
+    "title": "Travaux guidés par contraintes, reprise et intention claire",
+    "description": "Projets full-stack en paiements, plateformes, systèmes Rust et UX orientée fiabilité."
   },
   "skillsSection": {
     "eyebrow": "Compétences",
-    "title": "Compétences pour la fiabilité et la pérennité",
-    "description": "Clarté système, livraison produit et décisions plateformes durables."
+    "title": "Compétences pour une livraison full-stack fiable",
+    "description": "Pensée système, correction soutenue par Rust, UX produit pour flux complexes."
   },
   "experienceSection": {
     "eyebrow": "Expérience",
     "title": "Prise en main produit et plateforme",
-    "description": "Livraison en mode STAR avec résultats mesurables sur services, interfaces et opérations.",
+    "description": "Livraison de services et interfaces résilients avec résultats mesurables.",
     "earlierTitle": "Travaux antérieurs",
     "earlierBody": "Support IT et missions freelance qui ont forgé une approche orientée reprise, un calme en incident et de l'empathie pour les utilisateurs quand les systèmes tombent."
   },

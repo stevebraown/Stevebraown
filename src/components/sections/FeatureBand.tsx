@@ -14,6 +14,7 @@ export type FeatureBandProps = {
   layout?: "left" | "right";
   accentClassName?: string;
   metrics?: Stat[];
+  anchorId?: string;
 };
 
 export const FeatureBand = ({
@@ -25,9 +26,10 @@ export const FeatureBand = ({
   ctaLink,
   layout = "left",
   accentClassName,
-  metrics = []
+  metrics = [],
+  anchorId
 }: FeatureBandProps) => (
-  <section className="section-padding">
+  <section id={anchorId} className="section-padding">
     <div
       className={cn(
         "mx-auto grid max-w-screen-xl items-center gap-10 px-6 lg:grid-cols-2",
