@@ -1,6 +1,6 @@
 # Steve Braown Portfolio
 
-A futuristic, Darktrace-inspired developer portfolio for Steve Braown. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
+Built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Live Site
 
