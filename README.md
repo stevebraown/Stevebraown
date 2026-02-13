@@ -38,14 +38,11 @@ npm run preview
 
 - Public SEO assets live in `public/robots.txt`, `public/sitemap.xml`, and `public/google4d026ec127fd5ce4.html` (Search Console verification).
 - Default meta/OG/Twitter/JSON-LD are set via `src/components/seo/SEO.tsx` and wired in `src/App.tsx`.
-- To update sitemap/robots, edit the public files and redeploy; Vercel will serve them at the root.
-- To run Lighthouse locally: build or `npm run dev`, open in Chrome, run Lighthouse (mobile + desktop). Aim for 90+ Performance/SEO and 95+ Accessibility/Best Practices.
-- After deploy, add/monitor Google Search Console: verify domain, submit `https://stevebraown.vercel.app/sitemap.xml`, and review Coverage/Mobile Usability weekly.
 
 ## Project Structure
 
 - `src/components` - Layout, UI, and section components
-- `src/data` - Structured content for projects and site copy
+- `src/data` - Structured content 
 - `src/styles` - Tailwind and global styles
 
 ## License
